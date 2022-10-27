@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Shalimar&family=Special+Elite&display=swap');
+
+#corpsdk
+{
+    height: 800px;
+    width: 95%;
+    margin: 2%;
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 1fr 5%;
+    grid-template-rows: 2;
+    border: 4px double white;
+}
+
+#synopsisdk
+{
+    color: rgb(143, 0, 0);
+    grid-column: 2/5;
+    grid-row: 1;
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    margin-top: 2%;
+    background-image: url(/assets/img/blood.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#bloctipsdk
+{
+    grid-column: 2;
+    grid-row: 2;
+    border: 2px inset white;
+    margin: 5%;
+    font-size: 20px;
+}
+
+#blocprosdk
+{
+    color: green;
+    margin: 5%;
+}
+
+#blocconsdk
+{
+    color: rgb(141, 0, 0);
+    margin: 5%;
+    
+}
+
+#dkarmory
+{
+    grid-column: 3;
+    grid-row: 2;
+    background-image: url(/assets/img/dkarmory.png);
+    background-size: 100% 100%;
+    border: 2px inset white;
+    margin: 5%;
+}
+
+#dktalents
+{
+    grid-column: 4;
+    grid-row: 2;
+    background-image: url(/assets/img/deathknighttree.png);
+    background-size: 100% 100%;
+    margin: 5%;
+    border: 2px inset white;
+}
