@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap%27');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#bannierewow
+{
+    height: 400px;
+    max-width: 1080px;
+    min-width: 0px;
+    border: 2px solid black;
+    border-radius: 20rem 20rem 0 0;
+    margin: auto;
+    background-image: url(../img/bannierewod.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+#pieddepage
+{
+    height: 400px;
+    max-width: 1080px;
+    min-width: 0px;
+    border: 5px solid black;
+    margin: auto;
+    /* margin-top: 2%; */
+    border-radius: 0 0 20rem 20rem;
+    background-image: url(../img/hordealliance.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}

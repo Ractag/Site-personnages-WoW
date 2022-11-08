@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Fasthand&family=Shalimar&family=Special+Elite&display=swap');
+
+#corpschasseur
+{
+    height: 800px;
+    max-width: 100%;
+    min-width: none;
+    border: 4px double white;
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 1fr 5%;
+    grid-template-rows: 2;
+    margin: auto;
+}
+
+#synopsis
+{
+    grid-column: 2/5;
+    grid-row: 1;
+    color: rgb(134, 221, 134);
+    font-family: 'DM Serif Display', serif;
+    background-image: url(/assets/img/hunterweapon.png);
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#blocproscons
+{
+    grid-column: 2;
+    grid-row: 2;
+    border: 2px inset white;
+    margin: 2%;
+    font-size: 20px;
+}
+
+#blocpros
+{
+    color: green;
+    margin: 5%;
+}
+
+#blocons
+{
+    color: rgb(145, 0, 0);
+    margin: 5%;
+}
+
+.titreproscons
+{
+    text-align: center;
+    margin: 5%;
+}
+
+#armorychasseur
+{
+    grid-column: 3;
+    grid-row: 2;
+    background-image: url(/assets/img/huntarmory.png);
+    background-size: 100% 100%;
+    margin: 2%;
+    border: 2px inset white;
+}
+
+#talentschasseur
+{
+    grid-column: 4;
+    grid-row: 2;
+    background-image: url(/assets/img/hunttalentree.png);
+    background-size: 100% 100%;
+    margin: 2%;
+    border: 2px inset white;
+}

@@ -1,0 +1,30 @@
+body
+{
+    background-color: black;
+    background-image: url(/assets/img/1920x1080-px-Sylvanas-Windrunner-video-games-Warcraft-671401-wallhere.com.jpg);
+}
+
+h1
+{
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+}
+
+#startbutton
+{
+    display: flex;
+    justify-content: center;
+}
+#Q1
+{
+    color: white;
+
+}
+
+#list
+{
+    color: white;
+    font-size: large;
+    margin-left: 25%;
+}
